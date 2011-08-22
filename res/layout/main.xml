@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+	Aqui definimos que as Views serão dispostas verticalmente.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+	<TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="Nome:"
+    />
+    
+    <EditText 
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:id="@+id/nome"
+    />
+    
+    <TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="Telefone:"
+    />
+    <EditText 
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:id="@+id/telefone"
+    />
+    
+    <TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="Endereço:"
+    />
+    <EditText 
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:id="@+id/endereco"
+    />
+    
+    <Button 
+    	android:id="@+id/adicionar"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="Adicionar"
+    />
+    
+	<!--     
+		Definindo uma visualização de lista. 
+		A largura e a altura ocuparão o maior espaço possível (fill_parent).
+		Pedimos para o Android criar um id lista_de_amigos para pegarmos a
+		referência para essa ListView no código Java.
+	 -->
+    <ListView 
+    	android:id="@+id/lista_de_amigos"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    />
+</LinearLayout>
