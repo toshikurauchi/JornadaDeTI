@@ -1,4 +1,4 @@
-package br.com.caelum.jornadaDeTi;
+package br.com.caelum.jornadaDeTI;
 
 import java.util.ArrayList;
 import java.util.List;

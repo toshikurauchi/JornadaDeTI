@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package br.com.caelum.jornadaDeTi;
+package br.com.caelum.jornadaDeTI;
 
 public final class R {
     public static final class attr {
