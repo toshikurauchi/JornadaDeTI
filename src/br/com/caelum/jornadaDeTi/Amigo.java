@@ -1,4 +1,4 @@
-package br.com.caelum;
+package br.com.caelum.jornadaDeTi;
 
 public class Amigo {
 	private String nome;
