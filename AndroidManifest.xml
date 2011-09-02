@@ -16,7 +16,14 @@
 
     </application>
     
+	<!--     
+		Toda a parte acima foi gerada automaticamente. A única parte que adicionamos
+		são as permissões abaixo.
+	-->
+	<!-- 	Permissão para ligar para um telefone -->
     <uses-permission android:name="android.permission.CALL_PHONE"/>
+	<!--     Permissão para enviar SMS -->
     <uses-permission android:name="android.permission.SEND_SMS"/>
+	<!--     Permissão para usar a internet -->
     <uses-permission android:name="android.permission.INTERNET"/>
 </manifest>

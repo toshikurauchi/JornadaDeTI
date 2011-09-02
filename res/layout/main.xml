@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- 
 	Aqui definimos que as Views serão dispostas verticalmente.
+	Todos os elementos da tela (Views) devem definir a largura e altura 
+	(layout_width e layout_height). Nesse caso dizemos que queremos ocupar
+	o máximo possível da largura e altura, ou seja, o máximo possível da tela
 -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
@@ -8,12 +11,21 @@
     android:layout_height="fill_parent"
     >
     
+	<!--     
+		Aqui dizemos que a altura deve ser o menor possível, ou seja, que ocupe
+		somente o tamanho do texto
+	 -->
 	<TextView  
 	    android:layout_width="fill_parent" 
 	    android:layout_height="wrap_content" 
 	    android:text="Nome:"
     />
     
+	<!--     
+		Precisamos de um id para podermos refernciar esse EditText no código Java.
+		A notação @+id será usada para criar um id novo. Para referenciar um id no
+		xml poderíamos usar @id. Nesse caso criamos o id "nome", logo @+id/nome.
+	 -->
     <EditText 
     	android:layout_width="fill_parent"
     	android:layout_height="wrap_content"
